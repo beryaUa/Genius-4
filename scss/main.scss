@@ -1,0 +1,99 @@
+@import "./base";
+@import "./utils/variables";
+@import "./utils/fonts";
+@import "./utils/utils";
+@import "./utils/texts";
+
+// Pagination
+@import "./components/pagination";
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@import "./utils/mixins";
+
+.section {
+  padding: 48px 0;
+  background-color: var(--color-primary-light);
+}
+
+@import "./components/buttons";
+@import "./components/links";
+@import "./components/input";
+
+/* Header */
+@import "./components/header";
+
+/* Hero section */
+@import "./layouts/hero-section";
+
+/* Advantages */
+@import "./layouts/advantages-section";
+
+/* Section */
+@import "./layouts/section";
+
+/* Tradition section */
+@import "./layouts/traditions-section";
+
+/* Chefs section */
+@import "./layouts/chefs-section";
+
+// Chefs card
+@import "./components/chef-card";
+
+/* Format section */
+@import "./layouts/formats-section";
+// Formats Card
+@import "./components/format-card";
+
+/* Carousel */
+@import "./components/carousel_button";
+
+/* Contact section */
+@import "./layouts/contacts-section";
+
+/* Footer */
+@import "./layouts/footer";
+
+/* Modal */
+@import "./layouts/modal";
+
+/* Form */
+@import "./layouts/form-terms";
+
+// Monile Menu
+@import "./layouts/mobile-menu";
+
+/* Checkbox */
+/* .checkbox {
+    position: relative;
+  }
+  
+  .checkbox-input {
+    appearance: none;
+  }
+  
+  .checkbox-input:checked + .checkbox-label::before {
+    background-color: green;
+  }
+  
+  .checkbox-label {
+    padding-left: 24px;
+  }
+  
+  .checkbox-label::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    margin-top: 5px;
+    height: 16px;
+    border: 1px solid var(--color-brand-dark);
+    border-radius: 2px;
+    content: '';
+  } */
